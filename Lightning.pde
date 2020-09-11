@@ -36,8 +36,7 @@ void setup() {  // this is run once.
     strokeWeight(12);
     
     // Custom Harry Potter font
- //   hp = createFont("../Lightning/hp.ttf", 32);
-    hp = loadFont("HiraginoSans-W1-32.vlw");
+    hp = createFont("../Lightning/hp.ttf", 32);
     textFont(hp);
     textAlign(CENTER);
     fill(0);
