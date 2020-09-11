@@ -1,4 +1,4 @@
-//PFont hp;
+PFont hp;
 int y = 500;
 int health = 100;
 int enemyhealth = 100;
@@ -36,7 +36,7 @@ void setup() {  // this is run once.
     strokeWeight(12);
     
     // Custom Harry Potter font
-   // hp = createFont("../Lightning/hp.ttf", 32);
+    hp = createFont("../Lightning/hp.ttf", 32);
     textFont(hp);
     textAlign(CENTER);
     fill(0);
