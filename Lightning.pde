@@ -36,7 +36,8 @@ void setup() {  // this is run once.
     strokeWeight(12);
     
     // Custom Harry Potter font
-    hp = createFont("../Lightning/hp.ttf", 32);
+ //   hp = createFont("../Lightning/hp.ttf", 32);
+    hp = loadFont("HiraginoSans-W1-32.vlw");
     textFont(hp);
     textAlign(CENTER);
     fill(0);
@@ -74,7 +75,6 @@ void keyPressed() {
     enemyb = 60;
     fill(r,g,b);
     text("Slytherin", 100, y - 150);
-    // Makes Gryffindor enemy
     fill(enemyr, enemyg, enemyb);
     text("Gryffindor", width - 100, y - 150);
     // Use left arrow key to begin battle
@@ -91,7 +91,6 @@ void keyPressed() {
     enemyb = 62;
     fill(r,g,b);
     text("Gryffindor", 100, y - 150);
-    // Makes Slytherin enemy
     fill(enemyr, enemyg, enemyb);
     text("Slytherin", width - 100, y - 150);
     // Use left arrow key to begin battle
@@ -108,7 +107,6 @@ void keyPressed() {
     enemyb = 109;
     fill(r,g,b);
     text("Hufflepuff", 100, y - 150);
-    // Makes Ravenclaw enemy
     fill(enemyr, enemyg, enemyb);
     text("Ravenclaw", width - 100, y - 150);
     // Use left arrow key to begin battle
@@ -125,7 +123,6 @@ void keyPressed() {
     enemyb = 35;
     fill(r,g,b);
     text("Ravenclaw", 100, y - 150);
-    // Makes Hufflepuff enemy
     fill(enemyr, enemyg, enemyb);
     text("Hufflepuff", width - 100, y - 150);
     // Use left arrow key to begin battle
