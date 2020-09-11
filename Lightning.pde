@@ -1,4 +1,3 @@
-/* @pjs preload="hp.ttf" */
 PFont hp;
 int y = 500;
 int health = 100;
