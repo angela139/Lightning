@@ -24,7 +24,7 @@ void setup() {  // this is run once.
     background(255);
     
     // canvas size 
-    size(1200, 750); 
+    size(1000, 750); 
     
     // smooth edges
     smooth();
