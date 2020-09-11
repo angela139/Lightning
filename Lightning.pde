@@ -1,3 +1,4 @@
+/* @pjs preload="hp.ttf" */
 PFont hp;
 int y = 500;
 int health = 100;
@@ -36,7 +37,7 @@ void setup() {  // this is run once.
     strokeWeight(12);
     
     // Custom Harry Potter font
-    hp = createFont("../Lightning/hp.otf", 32);
+    hp = createFont("../Lightning/hp.ttf", 32);
     textFont(hp);
     textAlign(CENTER);
     fill(0);
