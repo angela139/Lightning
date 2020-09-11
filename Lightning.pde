@@ -50,7 +50,7 @@ void draw() {  // this is run repeatedly.
     
     //HP bars
     text("Your HP: " + health, 100, height - 20);
-    text("Enemy HP: " + enemyhealth, width - 100, height - 20);
+    text("Enemy HP: " + enemyhealth, width - 120, height - 20);
     
 }
 
