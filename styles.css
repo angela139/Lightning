@@ -1,11 +1,11 @@
+@font-face {
+      font-family: hp;
+      src: url(hp.ttf) format('truetype');
+	}
 
 body {
     background-color: rgb(200,200,200);
     color: rgb(0,0,0);
-    @font-face {
-      font-family: hp;
-      src: url(../Lightning/hp.ttf) format('truetype');
-	}
 	font-family: hp;
     text-align: center;
 }
