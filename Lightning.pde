@@ -60,8 +60,8 @@ void keyPressed() {
   if (keyCode == RIGHT) {
       beginBattle();
   }
-  // Pressing SPACE restarts the game
-  else if (keyCode == 32) {
+  // Pressing UP ARROW KEY restarts the game
+  else if (keyCode == UP) {
     restartGame();
   }
   // Press 's' to choose Slytherin
@@ -247,21 +247,21 @@ void beginBattle() {
         clear();
         background(255);
         text("Tie", width/2, 200);
-        text("Press the SPACE KEY to start over", width/2, 250);
+        text("Press the UP ARROW KEY to start over", width/2, 250);
       }
       // You lose if enemy health is greater and your health is negative
       else if (enemyhealth > health && health < 0) {
         clear();
         background(255);
         text("You lose", width/2, 200);
-        text("Press the SPACE KEY to start over", width/2, 250);
+        text("Press the UP ARROW KEY to start over", width/2, 250);
       }
       // You win if your health is greater and enemy's health is negative
       else if (health > enemyhealth && enemyhealth < 0) { 
         clear();
         background(255);
         text("You win", width/2, 200);
-        text("Press the SPACE KEY to start over", width/2, 250);
+        text("Press the UP ARROW KEY to start over", width/2, 250);
       }
      
 }
